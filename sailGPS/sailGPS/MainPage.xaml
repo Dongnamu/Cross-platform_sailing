@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:sailGPS"
+             x:Class="sailGPS.MainPage">
+
+    <RelativeLayout>
+        <Label Text="GPS" x:Name="titleGPS"
+           RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+        Property=Height, Factor=0.02, Constant=0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor=1, Constant=0}"
+           HorizontalTextAlignment="Center"
+           />
+
+        <Label Text="Latitude: " x:Name="titleLatitude"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.05, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalTextAlignment="Start"
+           />
+
+        <Label Text="Longitude: " x:Name="titleLongitude"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.08, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalOptions="Start"
+           />
+
+        <Label Text="Accelerometer" x:Name="titleAccelerometer"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.15, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalTextAlignment="Center"
+           />
+
+        <Label Text="X: " x:Name="accelerometerXvalue"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.18, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+              HorizontalTextAlignment="Start"
+           />
+
+        <Label Text="Y: " x:Name="accelerometerYvalue"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.18, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalTextAlignment="Center"
+           />
+
+        <Label Text="Z: " x:Name="accelerometerZvalue"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.18, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalTextAlignment="End"
+           />
+
+        <Label Text="Gyroscope" x:Name="titleGyroscope"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.24, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalTextAlignment="Center"
+           />
+
+        <Label Text="X: " x:Name="gyroscopeXvalue"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.27, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+              HorizontalTextAlignment="Start"
+           />
+
+        <Label Text="Y: " x:Name="gyroscopeYvalue"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.27, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+              HorizontalTextAlignment="Center"
+           />
+
+        <Label Text="Z: " x:Name="gyroscopeZvalue"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.27, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+              HorizontalTextAlignment="End"
+           />
+
+        <Label Text="Compass" x:Name="titleCompass"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.33, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalTextAlignment="Center"
+           />
+
+        <Label Text="Degree: " x:Name="compassvalue"
+           RelativeLayout.YConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Height, Factor = 0.36, Constant = 0}"
+           RelativeLayout.WidthConstraint="{ConstraintExpression Type = RelativeToParent,
+        Property = Width, Factor = 1, Constant = 0}"
+               HorizontalTextAlignment="Start"
+           />
+
+    </RelativeLayout>
+	
+
+
+</ContentPage>
